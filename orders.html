@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title>Place Orders </title>
+    <meta charset="utf-8">
+    <script src="packages/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="h3.css">
+    <script src="packages/jquery-1.12.4.min.js"></script>
+    <script src="packages/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    <br> <br> <br> <br>
+
+    <form action="">
+        <div class="box-info full" id="taskFormContainer">
+            <h2 class="Heading" >New Order </h2>
+                <input  name="customerName" id="customerName" type="text" class="form-control" placeholder="Customer Name" >
+            <br> <br> <br>
+            <div class="row">
+                <div class="col-sm-12">  
+                <div class="form">              
+                        <span class="l1"> Product </span> <span class="l2" > Price </span>  <span class="l3"> Quantity </span> <span class="l4" > Total </span>
+                        <button class="addbtn"  type="button" id="addMoreButton"> <b>Add More </b></button>
+                    
+                
+           
+       
+
+        <div class="product-box-extra" id="itemsInOrder">
+    
+        </div>
+
+        
+
+    <div class="product-box hidden">
+        <div class="row product-item">
+            <div class="col-sm-12">
+                <br>
+                        <select id="no" name="product" class="form-control cart-product"></select> <input id="product_price" name="product_price" class="product-price" value="0.0"></input><input id="qty" name="qty" type="number" min="1" placeholder="" class="form-control product-qty" value="1" style="max-width: 100px"><input id="item_total" name="item_total" class="product-total"></input><span> Rs</span>
+                        <button id="bttn" class="btn btn-sm btn-danger pull-right remove-row" type="button"> <b>Remove </b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <br> <br> <br> <br> <br> <br>
+    <div>
+        <div class="form1">
+                        <span class="total"><b>Total</b></span> <b><input id="product_grand_total" name="product_grand_total" class="product-grand-total" value="0.0"></input> Rs</b> <button class="btn btn-sm btn-primary pull-right" type="button" id="saveOrder">Save</button>
+                
+                </div>           
+</form>
+</div>
+</div>
+        
+       
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="custom/orders.js"></script>
+<script src="packages/jquery-1.12.4.min.js"></script>
+<script src="packages/bootstrap.min.js"></script>
+<script src="custom/common.js"></script>
+<script src="packages/bootstrap.min.css.map"></script>
+
+ 
+ </html>

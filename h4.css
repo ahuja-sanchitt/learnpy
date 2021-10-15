@@ -1,0 +1,25 @@
+.Heading{
+    text-decoration: underline;
+    margin-left: 28%;
+}
+
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    table-layout: fixed;
+    width: 70%;
+    white-space: nowrap;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    padding-bottom: 0.5px;
+    padding-right: 0.5px;
+}
+
+th,td{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+th{
+    text-decoration: underline;
+}

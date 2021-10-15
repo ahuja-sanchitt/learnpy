@@ -1,0 +1,123 @@
+body{
+    background-image: url(https://wallpapers.com/images/high/plain-light-to-dark-grey-5boabzb6ecawkkpa.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white
+}
+
+.Heading{
+    color:yellow;
+    background-color:black;
+    text-align:center;
+    border-style: solid;
+    border: width 5%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.about{
+    font-style: italic;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+      opacity: 0.7;
+      color:white;
+    }
+    50%{
+      opacity: 0.6;
+      color:white;
+    }
+    100%{
+      opacity: 1;
+      color:black;
+    }
+}
+
+.b1{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    width: 70px;
+    text-align: center;
+    
+} 
+
+.btn1{  display: inline;
+    float: left;
+    color:black;
+    background-color: coral;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 20px 20px;
+    margin-left: 100px;
+}
+
+
+
+.btn2{ display: inline;
+    float: center;
+    color:black;
+    background-color: coral;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 20px 20px;
+    margin-left: 400px;
+    
+}
+
+.btn3{ 
+    display: inline;
+    float: right;
+    color:black;
+    background-color: coral;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 20px 20px;
+    margin-right: 350px;  
+}
+
+.undertexts{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:black;
+    font-style: italic;
+}
+
+.one{ display: inline;
+    float: left;
+    margin-left: 80px;
+}
+
+.two{ display: inline;
+    float: center;
+    margin-left: 230px;
+    
+}
+
+.three{
+    float: right;
+    display: inline;
+    margin-right: 340px;
+
+  
+}
+
+
+.finalimg{
+    width: 1750px;
+    height: 469px;
+    object-fit:fill;
+    margin-left: 60px;
+  
+}

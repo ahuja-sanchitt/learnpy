@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <title>Manage products </title>
+    <meta charset="utf-8">
+    <script src="packages/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="h2.css">
+    <script src="packages/jquery-1.12.4.min.js"></script>
+    <script src="packages/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    <br> <br> <br> <br> <br>
+    <div class="Heading">
+        <h2> MANAGE PRODUCTS</h2>
+        <img src="https://www.computerhope.com/jargon/l/list.jpg" class="img">
+    </div>
+    <div class="immg">
+   
+        </div>
+    <br> <br> <br>
+    <div class="box-info full" id="taskFormContainer">
+            <button type="button" id="Addproduct" class="btn1" data-toggle="modal" data-target="#productModal">
+                Add New Product
+            </button>
+   
+    <br> <br> <br> <br> <br>
+    
+    <div>
+        <table class="tables">
+            <thead>
+                <th class="p_id"> Name</th>
+                <th class="name"> Unit </th>
+                <th class="Unit_id"> Price</th>
+                <th class="price"> Action</th>
+            </thead>
+            <tbody>
+
+        </table>
+    </div>
+</div>
+    <div class="modal-fade-scale" id="productModal" role="dialog" data-backdrop="static">
+                <div class="modal-header">
+                    <h4 class="modal-title">Add New Product</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="productForm">
+                        <input type="hidden" name="id" id="id" value="0">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label >Name</label>
+                                    <input class="form-control" placeholder="Name" name="name" id="name" type="text" value="">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label >Unit</label>
+                                    <select name="uoms" id="uoms" class="form-control">
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label >Price Per Unit</label>
+                                    <input class="form-control" placeholder="Price Per Unit" name="price" id="price" type="text" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveProduct">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="packages/jquery-1.12.4.min.js"></script>
+    <script src="custom/common.js"></script>
+    <script src="custom/manageproducts.js"></script>    
+   
+    <script src="packages/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-image: url(https://wallpapers.com/images/high/plain-light-to-dark-grey-5boabzb6ecawkkpa.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white
+}
+
+#customerName{
+    background-color: black;
+    color: yellow;
+    max-width:230px;
+    float: right;
+    margin-top: -11px;
+    margin-right: 381px;
+}
+
+.Heading{
+  
+    background-color: black;
+    text-decoration: underline;
+    color:yellow;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+}
+
+.row{
+    margin-bottom: 5px;margin-top: -10px;
+}
+
+.l1{
+    margin-left: 30px;
+}
+.l2{
+    margin-left: 80px;
+}
+
+.l3{
+    margin-left: 130px;
+}
+
+.l4{
+    margin-left: 124px;
+}
+
+.addbtn{
+    margin-left: 220px;
+}
+
+#no{
+    margin-left: 10px;
+}
+
+.product-price{margin-left: 45px;
+    width: 100px;
+    
+
+}
+
+#qty{
+    margin-left: 65px;
+    width: 60px;
+
+}
+
+.product-total{
+    margin-left: 114px;
+    width: 60px;
+
+}
+
+#bttn{
+    margin-left: 170px;
+}
+
+
+
+#saveOrder{
+    margin-left: 80px;
+}
+
+.form{
+    background-color: black;
+    color: yellow;
+    width: 1000px;
+}
+
+.form1{
+    background-color: black;
+    color: yellow;
+    width: 400px;
+    margin-left: 700px;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+}
